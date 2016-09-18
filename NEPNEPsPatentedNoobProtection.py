@@ -16,7 +16,7 @@ def Hacking():
 	time.sleep(6)
 	print("WARNING WARNING: Security systems alerted to intrusion. Beginning sector sweep.")
 	time.sleep(4)
-	raw_input("Automatic scripts have been aborted. Manual Override initiated. Enter PASSWORD code:")
+	print("Automatic scripts have been aborted. Manual Override initiated. Enter PASSWORD code:")
 	PASSCODE()
 
 Hacking()
@@ -24,3 +24,5 @@ Hacking()
 def PASSCODE():
 	
 	global Password, WordLimit, SPACES, PASSWORDguessesABC
+	
+	
