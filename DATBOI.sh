@@ -19,7 +19,7 @@ cat << BLACK_KEYS
 		<p>His Favorite drink</p>
 		<pre>$FavDrink</pre>
 		<p>His favorite activity</p>
-		<pre></pre
+		<pre>$FavActivity</pre>
 		<p>How many evil plans he has on storage</p>
 		<pre>$(ls -l ~)</pre>
 		<p>How much space he has</p>
