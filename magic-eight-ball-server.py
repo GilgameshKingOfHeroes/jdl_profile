@@ -2,7 +2,7 @@ import socket #import socket Python library
 import sys #import OS related Python library
 import _thread
 
-HOST = "192.168.0.40"
+HOST = input("Enter your Host computer's IP address: ")
 PORT = 45000
 
 
